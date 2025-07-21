@@ -3,10 +3,10 @@
 # These are fundamental settings for your documentation site.
 # -----------------------------------------------------------------------------
 
-site_name: My Awesome Project Docs # REQUIRED: The main title of your site. Appears in browser tab, header. Keep this.
-site_url: https://your-netlify-site.netlify.app/ # RECOMMENDED: Base URL for your deployed site. Important for SEO (sitemap, canonical URLs). REPLACE WITH YOUR ACTUAL NETLIFY URL.
-site_description: Official documentation for my fantastic project. # OPTIONAL: A short description of your site. Used in meta tags for SEO. Keep or delete.
-site_author: Your Name or Organization # OPTIONAL: Author of the site. Used in meta tags. Keep or delete.
+site_name: NCP ODK Users Manual # REQUIRED: The main title of your site. Appears in browser tab, header. Keep this.
+site_url: https://ncp-odk-users-manual.netlify.app/ # RECOMMENDED: Base URL for your deployed site. Important for SEO (sitemap, canonical URLs). REPLACE WITH YOUR ACTUAL NETLIFY URL.
+site_description: NCP Documentation for ODK. # OPTIONAL: A short description of your site. Used in meta tags for SEO. Keep or delete.
+site_author: Nutrition Center of the Philippines  # OPTIONAL: Author of the site. Used in meta tags. Keep or delete.
 
 # -----------------------------------------------------------------------------
 # NAVIGATION STRUCTURE
