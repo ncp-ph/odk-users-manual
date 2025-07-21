@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+h1 {
+    color: #0056b3;
+}
+p {
+    line-height: 1.6;
+}
+img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
