@@ -1,0 +1,50 @@
+# -----------------------------------------------------------------------------
+# CORE SITE CONFIGURATION
+# These are fundamental settings for your documentation site.
+# -----------------------------------------------------------------------------
+
+site_name: My Awesome Project Docs # REQUIRED: The main title of your site. Appears in browser tab, header. Keep this.
+site_url: https://your-netlify-site.netlify.app/ # RECOMMENDED: Base URL for your deployed site. Important for SEO (sitemap, canonical URLs). REPLACE WITH YOUR ACTUAL NETLIFY URL.
+site_description: Official documentation for my fantastic project. # OPTIONAL: A short description of your site. Used in meta tags for SEO. Keep or delete.
+site_author: Your Name or Organization # OPTIONAL: Author of the site. Used in meta tags. Keep or delete.
+
+# -----------------------------------------------------------------------------
+# NAVIGATION STRUCTURE
+# Defines how your pages are organized in the sidebar and top navigation.
+# Paths are relative to your 'docs/' folder (unless docs_dir is changed).
+# -----------------------------------------------------------------------------
+
+nav: # REQUIRED: Defines your site's navigation. You MUST customize this.
+  - Home: index.md # 'index.md' in your 'docs/' folder will be your homepage.
+  - Getting Started: # Example of a top-level section
+    - Overview: getting-started/overview.md # Create 'docs/getting-started/overview.md'
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quickstart.md
+  - Features: # Another top-level section
+    - Core Features: features/core.md
+    - Advanced Features: features/advanced.md
+  - My Original Document: document.md # If you have docs/document.md
+  - API Reference: api/reference.md # Example for an API section
+  - Changelog: changelog.md # Example for a separate changelog page
+  - About Us: about.md # Example for an About page
+
+# -----------------------------------------------------------------------------
+# THEME CONFIGURATION
+# Controls the visual appearance of your site.
+# Using 'material' theme for a modern look (requires 'pip install mkdocs-material').
+# -----------------------------------------------------------------------------
+
+theme:
+  name: material # REQUIRED: Specifies the theme. 'material' is highly recommended. Other options: 'mkdocs' (default, basic), 'readthedocs'. Keep this.
+
+  # --- Material Theme Specific Customizations (DELETE sections if not using 'material') ---
+  custom_dir: overrides # OPTIONAL: Path to a directory for custom Jinja2 templates. Useful for deep theme customization. Delete if not needed.
+
+  features: # OPTIONAL: Enables specific features provided by the 'material' theme.
+    - navigation.tabs # Top-level navigation items as tabs. Keep if you like tabs.
+    - navigation.sections # Groups items in the sidebar under foldable sections. Good for many pages.
+    - navigation.expand # Expands all navigation items by default. Delete if you want them collapsed.
+    - navigation.path # Shows the current page's path in the header.
+    - search.suggest # Provides search suggestions as you type.
+    - search.highlight # Highlights search terms on the page.
+    - content.action.edit # Adds an "Edit this page" link (needs
