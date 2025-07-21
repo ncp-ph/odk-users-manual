@@ -14,15 +14,16 @@ These are a few Examples of the type of data you can collect.
 ### :white_check_mark: Choose a date from a calendar
 <img width="150" height="336" alt="collect_date" src="../assets/images/collect_date.png" />
 
-### Choose one item   
-<img width="150" height="336" alt="collect_choice_one" src="https://github.com/user-attachments/assets/f80d5c47-83eb-426d-95f0-b61173cb1aab" />
+### :white_check_mark: Choose one item   
+<img width="150" height="336" alt="collect_date" src="../assets/images/collect_choice_one.png" />
 
-### Choose multiple selections   
-<img width="270" height="606" alt="collect_choice_multiple" src="https://github.com/user-attachments/assets/ae47273b-7ad9-4e42-b6c5-61fadd076e42" />
+### :white_check_mark: Choose multiple selections   
+<img width="150" height="336" alt="collect_date" src="../assets/images/collect_choice_multiple.png" />
 
-### Gather signatures  
-<img width="270" height="606" alt="collect_signature" src="https://github.com/user-attachments/assets/cbbd855c-7f37-4d63-a221-cb7294649c3f" />
-<img width="270" height="606" alt="collect_signed" src="https://github.com/user-attachments/assets/1d75597d-6671-41fa-b775-87d77a182e99" />
+### :white_check_mark: Gather signatures  
+<img width="150" height="336" alt="collect_date" src="../assets/images/collect_signature.png" />
+
+<img width="150" height="336" alt="collect_date" src="../assets/images/collect_signed.png" />
 
 ## [How to Install ODK Collect](https://github.com/ncp-ph/odk-central-do/new/main/users-manual)
 
