@@ -62,4 +62,71 @@ ODK Central Home [View Projects , Forms , Entity Lists]
 
                  ----  Download [Download Entities]
 
+# How to Download Submissions
+
+## The ODK Central Home Page shows a list of Projects, Forms and Entities.
+
+Step 1. Identify the Project that you want to view
+
+Step 2. Select the Form.
+
+Step 3. In the Form Submissions page, for that form.  Select Download.
+
+Step 4.  You will see a pop-up window giving Download Options.  For now, ignore the Export Options. Download as .csv  The .csv file should download in your default Downloads folder. 
+
+## This is the Project Home Page
+
+## This is the List of Submissions
+
+## This is the Download Options Pop-up
+
+# How to Comment on Submissions
+
+The ODK Central Home Page shows a list of Projects, Forms and Entities.
+
+Step 1. Identify the Project that you want to view and select the Form.
+
+Step 2. In the Form Submissions page, Go to the  column "State and Actions" and hover around the Submission you want to comment on and select "More" 
+
+Step 3.  You will be taken to the Submission Details and Activity  Page.   You can type in the Comment Box. 
+
+Note that in that page, you see the details of the Submission on the left and the Actions taken related to that Submission.  Submission Details are data about the Submission ( also called metadata) and not the Submission(data) itself.
+
+This is the Project Home Page
+
+This is the List of Submissions
+
+This is the Submission Details Page
+
+## How to Filter Submission Views 
+
+The ODK Central Home Page shows a list of Projects, Forms and Entities.
+
+Step 1. Identify the Project that you want to view and select the Form.
+
+Step 2. In the Form Submissions page, you will see four possible submission filters: 
+
+Submitted by
+Submitted at (ranges possible)
+Stage of Review
+Visible Columns 
+This shows the stages of review
+
+This shows the how to filter columns
+
+## How to Download Entities
+
+The ODK Central Home Page shows a list of Projects, Forms and Entities.
+
+Step 1. Identify the Project that you want to view
+
+Step 2. Select the Entity List.
+
+Step 3. In the Entitity List page, for that form.  Select Download.  The .csv file should download in your default Downloads folder. 
+
+This is the Project Home Page
+
+This is the List of Entities
+
+
 
