@@ -82,4 +82,20 @@ Selecting an entity to delete
 
 The Delete pop-up Window
 
+# How to Assign Users to Projects
 
+## Assigning Web Users to Projects
+
+1. Ask the Administrator to Create Web Users for your Project (provide e-mail address).
+
+2.  As Project Manager go to Project > Project Roles Tab
+
+3.  In the Search Box, place the exact email address.
+
+4.  Select the User and Assign a Role
+
+Search for the Web User
+
+Assigning Roles
+
+## Assigning App Users
