@@ -102,8 +102,8 @@ markdown_extensions: # OPTIONAL: Add extra Markdown features. Keep or delete as 
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight: # Better code syntax highlighting. Keep if you show code.
-      anchor_linenums: true # Allows linking directly to specific lines of code.
       line_numbers: true # Displays line numbers in code blocks.
+        anchor_linenums: true # Allows linking directly to specific lines of code.
   - attr_list # Allows adding HTML attributes (classes, IDs) directly in Markdown. Useful for styling specific elements.
   - footnotes # Enables footnote syntax.
   - def_list # Enables definition list syntax.
