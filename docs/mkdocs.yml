@@ -16,17 +16,17 @@ site_author: Nutrition Center of the Philippines  # OPTIONAL: Author of the site
 
 nav: # REQUIRED: Defines your site's navigation. You MUST customize this.
   - Home: index.md # 'index.md' in your 'docs/' folder will be your homepage.
-  - Getting Started: # Example of a top-level section
-    - Overview: getting-started/overview.md # Create 'docs/getting-started/overview.md'
-    - Installation: getting-started/installation.md
-    - Quick Start: getting-started/quickstart.md
-  - Features: # Another top-level section
-    - Core Features: features/core.md
-    - Advanced Features: features/advanced.md
-  - My Original Document: document.md # If you have docs/document.md
-  - API Reference: api/reference.md # Example for an API section
-  - Changelog: changelog.md # Example for a separate changelog page
-  - About Us: about.md # Example for an About page
+  - ODK Collect: # Example of a top-level section
+    - Overview: about-odk-collect.md # Create 'docs/getting-started/overview.md'
+    - Installation: install-odk-collect.md
+    - Quick Start: try-odk-collect.md
+  - ODK Central: # Another top-level section
+    - Core Features: about-odk-central.md
+    - Project Viewer: project_viewer.md
+    - Project Manager: project_manager.md
+    - Web Data Collector: web_data_collecctor.md
+    - App User: try-odk-collect.md
+
 
 # -----------------------------------------------------------------------------
 # THEME CONFIGURATION
