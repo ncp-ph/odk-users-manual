@@ -96,7 +96,7 @@ theme:
 markdown_extensions: # OPTIONAL: Add extra Markdown features. Keep or delete as needed.
   - admonition # For info/warning/note blocks (e.g., `!!! note "Title"`). Highly recommended for docs.
   - pymdownx.details # For expandable/collapsible sections (`???`). Useful for FAQs.
- - pymdownx.superfences: # Enhanced code blocks, supports custom fences (like Mermaid diagrams). Keep if you use code.
+  - pymdownx.superfences: # Enhanced code blocks, supports custom fences (like Mermaid diagrams). Keep if you use code.
       custom_fences:
         - name: mermaid # Enables Mermaid JS diagrams in code blocks. Requires including Mermaid JS via 'extra_javascript'.
           class: mermaid
