@@ -1,0 +1,21 @@
+# This file tells Netlify how to build and deploy your site.
+
+[build]
+  # The 'command' specifies the shell command Netlify should run to build your site.
+  # We first install the Python packages from requirements.txt, then run mkdocs build.
+  command = "pip install -r requirements.txt && mkdocs build"
+
+  # The 'publish' directory is where your static site files (HTML, CSS, JS) are
+  # generated after the build command runs. MkDocs' default output is 'site'.
+  publish = "site"
+
+# Optional: Define environment variables for the build process.
+# This is highly recommended to ensure Netlify uses a consistent Python version.
+[build.environment]
+  # Specify the Python version. Netlify's build image supports various versions.
+  # Common stable choices are "3.8", "3.9", "3.10", or "3.11".
+  # Pick one that works well with your MkDocs setup.
+  PYTHON_VERSION = "3.9" # You can change this if you prefer a different version.
+
+# You can add other Netlify configurations here if needed, such as redirects or headers.
+# For now, these build settings are sufficient for getting your MkDocs site deployed.
