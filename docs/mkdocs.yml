@@ -24,7 +24,7 @@ nav: # REQUIRED: Defines your site's navigation. You MUST customize this.
     - Core Features: about-odk-central.md
     - Project Viewer: project_viewer.md
     - Project Manager: project_manager.md
-    - Web Data Collector: web_data_collecctor.md
+    - Web Data Collector: web_data_collector.md
     - App User: try-odk-collect.md
 
 
@@ -38,7 +38,7 @@ theme:
   name: material # REQUIRED: Specifies the theme. 'material' is highly recommended. Other options: 'mkdocs' (default, basic), 'readthedocs'. Keep this.
 
   # --- Material Theme Specific Customizations (DELETE sections if not using 'material') ---
-  custom_dir: overrides # OPTIONAL: Path to a directory for custom Jinja2 templates. Useful for deep theme customization. Delete if not needed.
+  # custom_dir: overrides # OPTIONAL: Path to a directory for custom Jinja2 templates. Useful for deep theme customization. Delete if not needed.
 
   features: # OPTIONAL: Enables specific features provided by the 'material' theme.
     - navigation.tabs # Top-level navigation items as tabs. Keep if you like tabs.
@@ -48,3 +48,121 @@ theme:
     - search.suggest # Provides search suggestions as you type.
     - search.highlight # Highlights search terms on the page.
     - content.action.edit # Adds an "Edit this page" link (needs
+    - content.tabs.link # Makes content tabs linkable directly.
+    - content.code.annotation # Allows code annotations.
+    - content.code.copy # Adds a "copy to clipboard" button to code blocks.
+    - header.autohide # Hides the header when scrolling down.
+    - toc.follow # Keeps the table of contents active as you scroll.
+    # Keep or delete features based on your preference. Fewer features = cleaner.
+
+  palette: # OPTIONAL: Defines color schemes and light/dark mode toggles. Keep or delete.
+    - media: "(prefers-color-scheme)" # Auto-detects user's system preference
+      toggle:
+        icon: material/brightness-auto # Icon for auto mode
+        name: Switch to light mode # Text for the toggle
+    - media: "(prefers-color-scheme: light)" # Light mode settings
+      scheme: default
+      primary: blue # Primary color for header, links etc. (e.g., 'blue', 'indigo', 'green')
+      accent: blue # Accent color for highlights (e.g., 'light blue', 'lime')
+      toggle:
+        icon: material/brightness-4 # Icon for light mode
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" # Dark mode settings
+      scheme: slate # Darker scheme (e.g., 'slate', 'prefers-color-scheme')
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/brightness-7 # Icon for dark mode
+        name: Switch to system preference
+    # Keep this if you want light/dark mode. Adjust colors as desired. Delete if you want only one static theme.
+
+  font: # OPTIONAL: Custom fonts. Keep or delete.
+    text: Roboto # Font for body text
+    code: Roboto Mono # Font for code blocks
+    # Delete if you're happy with default fonts.
+
+  icon: # OPTIONAL: Custom icons for your site. Keep or delete.
+    logo: material/library # Icon in the header (e.g., 'material/book', 'fontawesome/solid/book')
+    # Delete if you don't need a specific logo icon.
+
+  # --- End of Material Theme Specific Customizations ---
+
+# -----------------------------------------------------------------------------
+# MARKDOWN EXTENSIONS
+# Enable additional syntax features for your Markdown files.
+# Many of these come from 'pymdown-extensions' (often installed with mkdocs-material).
+# -----------------------------------------------------------------------------
+
+markdown_extensions: # OPTIONAL: Add extra Markdown features. Keep or delete as needed.
+  - admonition # For info/warning/note blocks (e.g., `!!! note "Title"`). Highly recommended for docs.
+  - pymdownx.details # For expandable/collapsible sections (`???`). Useful for FAQs.
+  - pymdownx.superfences: # Enhanced code blocks, supports custom fences (like Mermaid diagrams). Keep if you use code.
+      custom_fences:
+        - name: mermaid # Enables Mermaid JS diagrams in code blocks. Requires including Mermaid JS via 'extra_javascript'.
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight: # Better code syntax highlighting. Keep if you show code.
+      anchor_linenums: true # Allows linking directly to specific lines of code.
+      line_numbers: true # Displays line numbers in code blocks.
+  - attr_list # Allows adding HTML attributes (classes, IDs) directly in Markdown. Useful for styling specific elements.
+  - footnotes # Enables footnote syntax.
+  - def_list # Enables definition list syntax.
+  - tables # Standard Markdown tables (usually enabled by default but good to explicitly include).
+  - toc: # Table of Contents generation.
+      permalink: true # Adds a permanent link icon next to headings in the TOC.
+
+# -----------------------------------------------------------------------------
+# PLUGINS
+# Extend MkDocs' functionality (e.g., search, sitemaps, minification).
+# Most require separate 'pip install' commands.
+# -----------------------------------------------------------------------------
+
+plugins: # OPTIONAL: Add plugins for extra functionality. Keep or delete as needed.
+  - search # REQUIRED: Provides client-side search functionality. Highly recommended. Keep this.
+  - minify: # OPTIONAL: Minifies HTML, CSS, JS. Good for performance. Requires 'pip install mkdocs-minify-plugin'.
+      minify_html: true
+      minify_css: true
+      minify_js: true
+      # Delete if you don't want minification or don't want to install the plugin.
+  # - social: # OPTIONAL: For generating social cards (Open Graph, Twitter Cards). Requires 'pip install mkdocs-material[social]'.
+  #     cards: false # Set to true to enable social card generation.
+  # Delete if you don't need social cards.
+
+# -----------------------------------------------------------------------------
+# ASSET INCLUSION
+# Link to your custom CSS and JavaScript files.
+# Paths are relative to your MkDocs project root (where mkdocs.yml is).
+# -----------------------------------------------------------------------------
+
+extra_css: # OPTIONAL: List of custom CSS files to include. Keep or delete.
+  - assets/style.css # Link to your custom CSS file (assuming it's in your repo root's 'assets' folder).
+  # Add more lines like '- path/to/another.css' for additional files.
+
+extra_javascript: # OPTIONAL: List of custom JavaScript files to include. Keep or delete.
+ # - https://unpkg.com/mermaid/dist/mermaid.min.js # Example: if you use Mermaid diagrams (for 'pymdownx.superfences' above)
+  # - assets/my-custom-script.js # Link to your custom JS file (assuming it's in your repo root's 'assets' folder).
+  # Add more lines like '- path/to/another.js' for additional files.
+
+# -----------------------------------------------------------------------------
+# REPOSITORY CONFIGURATION
+# Links your documentation to its source repository on GitHub.
+# -----------------------------------------------------------------------------
+
+repo_name: ncp-ph/odk-users-manual # RECOMMENDED: Display name for your repository link. Keep this.
+repo_url: https://github.com/ncp-ph/odk-users-manual # RECOMMENDED: Full URL to your GitHub repository. Keep this.
+# edit_uri: edit/main/docs/ # OPTIONAL: Path to append to repo_url for "Edit this page" links. (e.g., for GitHub, if your docs are in 'main' branch, 'docs' folder). Delete if you don't want "Edit" links.
+
+# -----------------------------------------------------------------------------
+# DIRECTORY SETTINGS (Only change if your setup is non-standard)
+# -----------------------------------------------------------------------------
+
+# docs_dir: documentation # OPTIONAL: Default is 'docs'. If your Markdown files are in a folder named something else (e.g., 'documentation'). UNCOMMENT AND CHANGE if needed.
+# site_dir: _build # OPTIONAL: Default is 'site'. This is the folder MkDocs outputs its HTML to. Netlify's 'Publish directory' should match this. UNCOMMENT AND CHANGE if needed.
+
+# -----------------------------------------------------------------------------
+# COPYRIGHT AND MISCELLANEOUS
+# -----------------------------------------------------------------------------
+
+copyright: Copyright &copy; 2025 Nutrition Center of the Philippines # OPTIONAL: Text for the copyright notice in the footer. Keep or delete.
+# strict: true # OPTIONAL: If true, MkDocs will exit with an error on warnings (e.g., broken links). Useful for CI/CD. Delete if you want warnings to be non-blocking.
+# remote_branch: gh-pages # OPTIONAL: Only relevant if deploying directly to GitHub Pages using 'mkdocs gh-deploy'. Not needed for Netlify. Delete.
