@@ -138,7 +138,7 @@ extra_css: # OPTIONAL: List of custom CSS files to include. Keep or delete.
   - assets/style.css # Link to your custom CSS file (assuming it's in your repo root's 'assets' folder).
   # Add more lines like '- path/to/another.css' for additional files.
 
-extra_javascript: # OPTIONAL: List of custom JavaScript files to include. Keep or delete.
+# extra_javascript: # OPTIONAL: List of custom JavaScript files to include. Keep or delete.
  # - https://unpkg.com/mermaid/dist/mermaid.min.js # Example: if you use Mermaid diagrams (for 'pymdownx.superfences' above)
   # - assets/my-custom-script.js # Link to your custom JS file (assuming it's in your repo root's 'assets' folder).
   # Add more lines like '- path/to/another.js' for additional files.
