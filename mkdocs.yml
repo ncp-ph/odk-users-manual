@@ -96,14 +96,14 @@ theme:
 markdown_extensions: # OPTIONAL: Add extra Markdown features. Keep or delete as needed.
   - admonition # For info/warning/note blocks (e.g., `!!! note "Title"`). Highly recommended for docs.
   - pymdownx.details # For expandable/collapsible sections (`???`). Useful for FAQs.
-  - pymdownx.superfences: # Enhanced code blocks, supports custom fences (like Mermaid diagrams). Keep if you use code.
+ - pymdownx.superfences: # Enhanced code blocks, supports custom fences (like Mermaid diagrams). Keep if you use code.
       custom_fences:
         - name: mermaid # Enables Mermaid JS diagrams in code blocks. Requires including Mermaid JS via 'extra_javascript'.
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight: # Better code syntax highlighting. Keep if you show code.
-      line_numbers: true # Displays line numbers in code blocks.
-        anchor_linenums: true # Allows linking directly to specific lines of code.
+      linenums: true      # CORRECTED: Changed 'line_numbers' to 'linenums'
+      anchor_linenums: true # CORRECTED: Indentation is now aligned with 'linenums'
   - attr_list # Allows adding HTML attributes (classes, IDs) directly in Markdown. Useful for styling specific elements.
   - footnotes # Enables footnote syntax.
   - def_list # Enables definition list syntax.
