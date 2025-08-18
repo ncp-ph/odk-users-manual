@@ -14,9 +14,6 @@ These are a few Examples of the type of data you can collect.
 ### Choose a date from a calendar
 <img width="300" height="672" alt="collect_date" src="/assets/images/collect_date.png" />
 
-<img width="600" height="672" alt="collect_date" src="assets/images/collect_date.png" />
-
-
 ### Choose one item   
 <img width="300" height="672" alt="collect_item" src="/assets/images//collect_choice_one.png" />
 
