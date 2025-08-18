@@ -12,18 +12,18 @@ Simplified Explanation: Imagine a digital clipboard for surveys. ODK Collect is
 These are a few Examples of the type of data you can collect.  
 
 ### :white_check_mark: Choose a date from a calendar
-<img width="150" height="336" alt="collect_date" src="../../assets/images/collect_date.png" />
+<img width="150" height="336" alt="collect_date" src="../assets/images/collect_date.png" />
 
 ### :white_check_mark: Choose one item   
-<img width="150" height="336" alt="collect_date" src="../../assets/images/collect_choice_one.png" />
+<img width="150" height="336" alt="collect_date" src="../assets/images/collect_choice_one.png" />
 
 ### :white_check_mark: Choose multiple selections   
-<img width="150" height="336" alt="collect_date" src="../../assets/images/collect_choice_multiple.png" />
+<img width="150" height="336" alt="collect_date" src="../assets/images/collect_choice_multiple.png" />
 
 ### :white_check_mark: Gather signatures  
-<img width="150" height="336" alt="collect_date" src="../../assets/images/collect_signature.png" />
+<img width="150" height="336" alt="collect_date" src="../assets/images/collect_signature.png" />
 
-<img width="150" height="336" alt="collect_date" src="../../assets/images/collect_signed.png" />
+<img width="150" height="336" alt="collect_date" src="../assets/images/collect_signed.png" />
 
 ## [How to Install ODK Collect](./install-odk-collect.md)
 
