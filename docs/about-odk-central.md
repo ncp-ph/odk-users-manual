@@ -12,7 +12,7 @@ Finalized Forms with Data
 
 ODK Central is the hub that controls the ODK Ecosystem. ODK Central manages users, forms, permissions and data flow. Forms are created in a computer using a template in Excel or Google Sheets using the XLSForm Standard. These XLSForms are are uploaded to ODK Central.  ODK Collect connects to ODK Central Projects and Forms using the QR Codes. Forms are then downloaded into the ODK Collect App as blank forms.  Data collected using these Forms are processed within ODK Collect and sent back to ODK Central.  These are called Submissions.  These Submissions can then be exported as data for analysis. 
 
-<img width="300" height="672" alt="collect_multiple" src="/assets/images/diagram_odk_collect.png" />
+<img width="300" height="672" alt="odk and central collect diagram" src="/assets/images/diagram_odk_collect.png" />
 
 # ODK Central 
 ODK Central is installed on a Linux Server with the latest Ubuntu version.  A study should have a dedicated server.  ODK Central can contain many ODK Projects, and each Project can have many Forms.  ODK Central can have many Users and each User can be assigned to any Project with specific Roles.  The Roles define what they can do within that Project.
@@ -35,7 +35,7 @@ The ODK Collect App is designed to Download Project Settings from ODK Central. 
 
 Here are some illustrations of settings focused on how forms are sent.
 
-<img width="300" height="672" alt="collect_multiple" src="/assets/images/diagram_odk_panela.png" />
+<img width="300" height="672" alt="shows odk collect flow of forms with no auto settings" src="/assets/images/odk_panela.png" />
 
 In **Panel A**, you will see that data collected is entered in Blank Forms.  When these forms are Saved, they are sent to Drafts.  When Draft Form Finalized, they are sent to Ready to Send.  When the Ready to Send Forms are Sent, data is sent to Sent Forms.  It is important to note that data is still in the Android Device and may have to be manually deleted.  
 
@@ -46,10 +46,10 @@ The lesson here is that:
 
 In **Panel B**, the **Auto-Send setting** is enabled.  ODK Collect sends the data to ODK Central and within Collect, data goes directly to Sent.  Data passes through, but does not remain in Ready to Send.  Data still has to be manually deleted.  This setting does not require manual sending by the data collector ensuring that data is always securely in ODK Central.
 
-<img width="300" height="672" alt="collect_multiple" src="/assets/images/diagram_odk_panelb.png" />
+<img width="300" height="672" alt="Diagram with Auto Send" src="/assets/images/odk_panelb.png" />
 
 In **Panel C**, **Auto-delete upon sending** is enabled.  This means that upon sending, the data that was sent disappears from the device immediately.  
 
-<img width="300" height="672" alt="collect_multiple" src="/assets/images/diagram_odk_panelc.png" />
+<img width="300" height="672" alt="Diagram wiht Auto delete" src="/assets/images/odk_panelc.png" />
 
 Project Managers have to decide which setting they want to have. 
