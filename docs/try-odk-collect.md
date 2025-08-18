@@ -19,10 +19,11 @@ You will learn how to answer the most common question types enumerated below
 
 
 ## Steps
-- Install ODK Collect [Read here if you have not installed](/install-odk-collect.md)
-- Open ODK Collect
-- Select Configure with QR Code 
-- Scan this QR Code with ODK Collect  
+- Step 1. Install ODK Collect [Read here if you have not installed](/install-odk-collect.md)
+- Step 2. Open ODK Collect
+- Step 3. Select Configure with QR Code 
+- Step 4. Scan this QR Code with ODK Collect  
+<img width="300" height="672" alt="collect_signatures" src="/assets/images/qr_training_20250710.png" />
 - Inspect the Home Page of the Project  
     -Inspect the icons  
         - project icon on the top right  
