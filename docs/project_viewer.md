@@ -1,10 +1,8 @@
 # Introduction
 
-A Project Viewer is one type of Web user of ODK Central. The other Web Users are Administrators, Project Managers and Web Data Collectors. With the exception of the Administrator, all the other roles are project specific. 
+A Project Viewer is one of the types of Web user of ODK Central. The other users are Administrators, Project Managers and Web Data Collectors. The Project Viewers can only access the Projects assigned to them.  A Project Viewer can work with Submissions and Entities.  A Project Viewer can see the data but cannot change the data.
 
 Recall that ODK Central has Projects, and each Project has Users with Roles, Forms, Forms with Submissions, Entity Lists and Entities. Forms will contain data (called Submissions). Entity Lists will also contain data (called entities). Forms, Entity Lists and Entities are pre-defined by the Project. A Project Viewer can list forms and entities (where data is placed), download all submissions and entities, see individual entities in the browser.
-
-In summary, a Project Viewer can work with Submissions and Entities.  A Project Viewer can see but cannot change.
 
 # Role of Project Viewers
 - List All Forms
@@ -34,15 +32,15 @@ In summary, a Project Viewer can work with Submissions and Entities.  A Project
 
 # Navigating Central as a Project Viewer
 
-This is a Site Map showing where you can do each task
+This is a Site Map showing where you can do each task [shown in brackets]
 
-ODK Central Home [View Projects , Forms , Entity Lists]
+**ODK Central Home** [View Projects , Forms , Entity Lists]
 
--- Project Summary | Docs | Forum
+-- *Project Summary* | *Docs* | *Forum*
 
--- News
+-- **News**
 
--- Projects
+-- **Projects**
 
      ---- Forms [List all Forms]
 
@@ -61,6 +59,33 @@ ODK Central Home [View Projects , Forms , Entity Lists]
                  ----  Entity Details and Activity  [View Metadata and Data]
 
                  ----  Download [Download Entities]
+
+# ODK Central Home
+**ODK Central Home** is the landing page for your account. From here, you can see an overview of your projects and access features like viewing submissions, managing forms, and more.
+
+## Quick Links
+* [View Projects](link-to-projects)
+* [Forms](link-to-forms)
+* [Entity Lists](link-to-entity-lists)
+
+## News
+
+## Projects
+* Forms
+    * [List all Forms](link-to-form-list)
+        * Submissions
+            * [View Submissions](link-to-submissions)
+                * Filter Views
+                * Submission Details and Activity
+                    * [Comment on Submissions](link-to-comments)
+                * [Download Submissions](link-to-download)
+* Entity Lists
+    * [View all Entity Lists](link-to-entity-lists)
+        * Entities
+            * [View Entities and Data](link-to-entities)
+                * Entity Details and Activity
+                * [View Metadata and Data](link-to-metadata)
+                * [Download Entities](link-to-download-entities)
 
 # How to Download Submissions
 
