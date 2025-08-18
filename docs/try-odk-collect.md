@@ -4,7 +4,7 @@ ODK Collect works with a computer that connects securely with the ODK Collect to
 This is just like how your email or messaging apps connect to a server to get your messages and send new ones.
 
 You will connect to the Training Project using a QR Code and learn how to navigate ODK Collect Questions.  
-You will learn how to answer the most common question types enumerated below
+You will learn how to answer the most common question types enumerated below  
 - Text  
 - Numerical  
 - Range  
@@ -19,12 +19,12 @@ You will learn how to answer the most common question types enumerated below
 
 
 ## Steps
-- Step 1. Install ODK Collect [Read here if you have not installed](/install-odk-collect.md)
+- Step 1. Install ODK Collect [Follows these steps if you have not installed ODK Collect](/install-odk-collect.md)
 - Step 2. Open ODK Collect
 - Step 3. Select Configure with QR Code 
 - Step 4. Scan this QR Code with ODK Collect  
 <img width="300" height="672" alt="collect_signatures" src="/assets/images/qr_training_20250710.png" />
-- Inspect the Home Page of the Project  
+- Step 5. Inspect the Home Page of the Project  
     -Inspect the icons  
         - project icon on the top right  
         - Start New Form - after entering data here, you can save and it goes to drafts  
@@ -32,14 +32,14 @@ You will learn how to answer the most common question types enumerated below
         - Ready to Send - these are finalized forms that can be sent  
         - Sent - sent forms may be found here  
         - Delete Form  
--  Step 4 Go to Start New form  
+-  Step 6 In the Home Page, go to Start New Form  
     - Select All Question types Form  
     - You are now in the questionnaire  
     - Navigate the questionnaire by:  
         - Swiping left or right  
         - Using the Next Button  
         - Jumping  
-            - Look for the Icon with 3 horizontal lines at the top..  When you select this icon, it will take you to a list of groups of questions which are shown as folders.  Select a folder to see a list of questions.  You can select a question  or navigate out of the folder by selecting the "go up" button shown by the upward pointing arrow.  
+            - Look for the Icon with 3 horizontal lines at the top.  When you select this icon, it will take you to a list of groups of questions which are shown as folders.  Select a folder to see a list of questions.  You can select a question  or navigate out of the folder by selecting the "go up" button shown by the upward pointing arrow.  
         - Auto Advance  
             - Go to Select one question types group.  
             - Choose the Select one autoadvance question.    
@@ -62,7 +62,7 @@ You will learn how to answer the most common question types enumerated below
             - Go to the End .  Here you will see the Send option.
             - Select Send.
         - The submission goes to Ready to Send and then to Sent.  Now you will see that submission in Sent.  It is now possible to still edit forms that have been Sent.  
-- Step 5 That is the end !  Exit ODK Collect
-Exit ODK Collect as you would any other App
-It is important to do this so that ODK Collect is not accessible by anyone your device is left unattended
+- Step 7 That is the end !  Exit ODK Collect  
+Exit ODK Collect the way you you would any other App.  
+It is important to do this so that ODK Collect is not accessible by anyone your device is left unattended.  
 
