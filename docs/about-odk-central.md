@@ -35,7 +35,7 @@ The ODK Collect App is designed to Download Project Settings from ODK Central. 
 
 Here are some illustrations of settings focused on how forms are sent.
 
-<img width="300" height="672" alt="collect_multiple" src="/assets/images/diagram_odk_collect_panels.png" />
+<img width="300" height="672" alt="collect_multiple" src="/assets/images/diagram_odk_panela.png" />
 
 In **Panel A**, you will see that data collected is entered in Blank Forms.  When these forms are Saved, they are sent to Drafts.  When Draft Form Finalized, they are sent to Ready to Send.  When the Ready to Send Forms are Sent, data is sent to Sent Forms.  It is important to note that data is still in the Android Device and may have to be manually deleted.  
 
@@ -46,6 +46,10 @@ The lesson here is that:
 
 In **Panel B**, the **Auto-Send setting** is enabled.  ODK Collect sends the data to ODK Central and within Collect, data goes directly to Sent.  Data passes through, but does not remain in Ready to Send.  Data still has to be manually deleted.  This setting does not require manual sending by the data collector ensuring that data is always securely in ODK Central.
 
+<img width="300" height="672" alt="collect_multiple" src="/assets/images/diagram_odk_panelb.png" />
+
 In **Panel C**, **Auto-delete upon sending** is enabled.  This means that upon sending, the data that was sent disappears from the device immediately.  
+
+<img width="300" height="672" alt="collect_multiple" src="/assets/images/diagram_odk_panelc.png" />
 
 Project Managers have to decide which setting they want to have. 
