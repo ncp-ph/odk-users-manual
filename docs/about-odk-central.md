@@ -44,8 +44,8 @@ The lesson here is that:
 
 2  Data that remains in the Sent Folder may risk a privacy breach.
 
-In Panel B, the Auto-Send setting is enabled.  ODK Collect sends the data to ODK Central and within Collect, data goes directly to Sent.  Data passes through, but does not remain in Ready to Send.  Data still has to be manually deleted.  This setting does not require manual sending by the data collector ensuring that data is always securely in ODK Central.
+In **Panel B**, the **Auto-Send setting** is enabled.  ODK Collect sends the data to ODK Central and within Collect, data goes directly to Sent.  Data passes through, but does not remain in Ready to Send.  Data still has to be manually deleted.  This setting does not require manual sending by the data collector ensuring that data is always securely in ODK Central.
 
-In Panel C, Auto-delete upon sending is enabled.  This means that upon sending, the data that was sent disappears from the device immediately.  
+In **Panel C**, **Auto-delete upon sending** is enabled.  This means that upon sending, the data that was sent disappears from the device immediately.  
 
 Project Managers have to decide which setting they want to have. 
