@@ -2,15 +2,17 @@
 
 ODK consists of :
 
-ODK Central Server
-ODK Projects 
-Forms (Blank)
-Submissions (Data from Forms)
-ODK Collect App
-Blank Forms
-Finalized Forms with Data
+ODK Central Server  
+ODK Projects  
+Forms (Blank)  
+Submissions (Data from Forms)  
+ODK Collect App  
+Blank Forms  
+Finalized Forms with Data  
 
-ODK Central is the hub that controls the ODK Ecosystem. ODK Central manages users, forms, permissions and data flow. XLSForms created in a computer are uploaded to ODK Central.  These forms are then downloaded into the ODK Collect App as blank forms.  Data collected using these Forms  are processed within ODK Collect and sent back to ODK Central.  These are called Submissions.  These Submissions can then be exported as data for analysis. 
+ODK Central is the hub that controls the ODK Ecosystem. ODK Central manages users, forms, permissions and data flow. Forms are created in a computer using a template in Excel or Google Sheets using the XLSForm Standard. These XLSForms are are uploaded to ODK Central.  ODK Collect connects to ODK Central Projects and Forms using the QR Codes. Forms are then downloaded into the ODK Collect App as blank forms.  Data collected using these Forms are processed within ODK Collect and sent back to ODK Central.  These are called Submissions.  These Submissions can then be exported as data for analysis. 
+
+<img width="300" height="672" alt="collect_multiple" src="/assets/images/diagram_odk_collect.png" />
 
 # ODK Central 
 ODK Central is installed on a Linux Server with the latest Ubuntu version.  A study should have a dedicated server.  ODK Central can contain many ODK Projects, and each Project can have many Forms.  ODK Central can have many Users and each User can be assigned to any Project with specific Roles.  The Roles define what they can do within that Project.
