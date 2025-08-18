@@ -5,47 +5,47 @@ This is just like how your email or messaging apps connect to a server to get yo
 
 You will connect to the Training Project using a QR Code and learn how to navigate ODK Collect Questions.  
 You will learn how to answer the most common question types enumerated below
-- Text
-- Numerical
-- Range
-- Date and Time
-- Select one
-- Select multi
-- Less frequently encounter question types
-- Image
-- Media
-- Geospatial
-- List
-- others
+- Text  
+- Numerical  
+- Range  
+- Date and Time  
+- Select one  
+- Select multi  
+- Less frequently encounter question types:  
+  - Image  
+  - Media  
+  - Geospatial  
+  - List  
+
 
 ## Steps
-- Install ODK Collect ()
+- Install ODK Collect [Read here if you have not installed](/install-odk-collect.md)
 - Open ODK Collect
 - Select Configure with QR Code 
-- Scan this QR Code
-- Inspect the Home Page of the Project
-    -Inspect the icons
-        - project icon on the top right
-        - Start New Form - after entering data here, you can save and it goes to drafts
-        - Drafts - these are not finalized and can be edited.  Once finalized they go to the next icon
-        - Ready to Send - these are finalized forms that can be sent
-        - Sent - sent forms may be found here
-        - Delete Form
--  Step 4 Go to Start New form
-    - Select All Question types Form
-    - You are now in the questionnaire 
-    - Navigate the questionnaire by:
-        - Swiping left or right
-        - Using the Next Button
-        - Jumping
-            - Look for the Icon with 3 horizontal lines at the top..  When you select this icon, it will take you to a list of groups of questions which are shown as folders.  Select a folder to see a list of questions.  You can select a question  or navigate out of the folder by selecting the "go up" button shown by the upward pointing arrow.
-        - Auto Advance
+- Scan this QR Code with ODK Collect  
+- Inspect the Home Page of the Project  
+    -Inspect the icons  
+        - project icon on the top right  
+        - Start New Form - after entering data here, you can save and it goes to drafts  
+        - Drafts - these are not finalized and can be edited.  Once finalized they go to the next icon  
+        - Ready to Send - these are finalized forms that can be sent  
+        - Sent - sent forms may be found here  
+        - Delete Form  
+-  Step 4 Go to Start New form  
+    - Select All Question types Form  
+    - You are now in the questionnaire  
+    - Navigate the questionnaire by:  
+        - Swiping left or right  
+        - Using the Next Button  
+        - Jumping  
+            - Look for the Icon with 3 horizontal lines at the top..  When you select this icon, it will take you to a list of groups of questions which are shown as folders.  Select a folder to see a list of questions.  You can select a question  or navigate out of the folder by selecting the "go up" button shown by the upward pointing arrow.  
+        - Auto Advance  
             - Go to Select one question types group.  
-            - Choose the Select one autoadvance question.  
-            - Answer it.  After answering, Collect automatically advances.
-        - Required Questions
-            - Go to the Groups of Questions and selects the Other question types.
-            - Choose Trigger.  This type of question prompts you to confirm something.  If you do not confirm, you cannot advance.
+            - Choose the Select one autoadvance question.    
+            - Answer it.  After answering, Collect automatically advances.  
+        - Required Questions  
+            - Go to the Groups of Questions and selects the Other question types.  
+            - Choose Trigger.  This type of question prompts you to confirm something.  If you do not confirm, you cannot advance.  
 
     - There are around 100 question types.  Jump to the following question groups as these are the most frequently used : Text, Numerical, Range, Date & Time, Select one, Select Multi.
     - Learn to Save and Send
@@ -65,4 +65,3 @@ You will learn how to answer the most common question types enumerated below
 Exit ODK Collect as you would any other App
 It is important to do this so that ODK Collect is not accessible by anyone your device is left unattended
 
-That is the end of Module 1.  You can look at the Resources  we have shared.  This include a short video introduction about ODK, the ODK Documentation and the ODK Forum.

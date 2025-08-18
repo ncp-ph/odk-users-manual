@@ -11,7 +11,8 @@ Just like any other Android App, you download ODK Collect from the Google Play S
 - Search for "ODK Collect"
 - Tap "Install" and wait for the app to download and install
 
-- Click on [this link to go to ODK Collect on Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android)
+- Click on [this link to go to ODK Collect on Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android)  
+
 To update the App, go through the same process and choose Update.
 
 ## Permissions
