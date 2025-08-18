@@ -37,7 +37,7 @@ Here are some illustrations of settings focused on how forms are sent.
 
 <img width="300" height="672" alt="collect_multiple" src="/assets/images/diagram_odk_collect_panels.png" />
 
-In Panel A, you will see that data collected is entered in Blank Forms.  When these forms are Saved, they are sent to Drafts.  When Draft Form Finalized, they are sent to Ready to Send.  When the Ready to Send Forms are Sent, data is sent to Sent Forms.  It is important to note that data is still in the Android Device and may have to be manually deleted.  
+In **Panel A**, you will see that data collected is entered in Blank Forms.  When these forms are Saved, they are sent to Drafts.  When Draft Form Finalized, they are sent to Ready to Send.  When the Ready to Send Forms are Sent, data is sent to Sent Forms.  It is important to note that data is still in the Android Device and may have to be manually deleted.  
 
 The lesson here is that:
 1.  Data not sent to ODK Central can get lost and that is lost forever.
