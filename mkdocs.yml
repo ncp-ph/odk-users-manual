@@ -25,7 +25,8 @@ nav: # REQUIRED: Defines your site's navigation. You MUST customize this.
     - Project Viewer: project_viewer.md
     - Project Manager: project_manager.md
     - Web Data Collector: web_data_collector.md
-    - App User: try-odk-collect.md
+    - App User: app_user.md
+    - Administrator: administrator.md
 
 
 # -----------------------------------------------------------------------------
