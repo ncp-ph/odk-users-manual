@@ -4,26 +4,25 @@ When you log-in as a Project Manager, you will see your Home Page. This page wil
 
 ## Project Manager Home Page
 There are four sections:  
-A - ODK Central System and User  
-    - The first dropdown (icon, question mark) shows you the ODK Central Version and Links to ODK Docs and ODK Forum.  
-    - The second dropdown is for language  
-    - The third dropdown is the user profile and logging out.  
-B - Projects and Documentation
-    -  There are 3 boxes 
-    -  The first box shows the number of projects  
-    -  The second box is a link to ODK Docs
-    -  The third box is a link to ODK Forum  
-C - News from ODK (usually about the latest versions of ODK Central and ODK Collect)
-D - Projects  
-    - This lists the projects (in blue)
-        - On the left side, you can see the Forms (file icon); Entity Lists (database icon); and Entities. 
-        - On the right side, there are five columns that refer to data (Submissions or Entities)
-            - Received Data
-            - Data with Issues / Comments
-            - Edited Data
-            - Latest Modification
-            - Total Data 
-            - Received Data, Sissues and Edited date are collectively called "Review States" 
+* A - ODK Central System and User  
+    * The first dropdown shows the ODK Central Version and Links to ODK Docs and ODK Forum.  
+    * The second dropdown is for language  
+    * The third dropdown is the user profile and logging out.  
+* B - Projects and Documentation
+    * The first box shows the number of projects  
+    * The second box is a link to ODK Docs
+    * The third box is a link to ODK Forum  
+* C - News from ODK (usually about the latest versions of ODK Central and ODK Collect)
+* D - Projects  
+    * This lists the projects (in blue)
+        * On the left side, you can see the Forms (file icon); Entity Lists (database icon); and Entities. 
+        * On the right side, there are five columns that refer to data (Submissions or Entities)
+            * Received Data
+            * Data with Issues / Comments
+            * Edited Data
+            * Latest Modification
+            * Total Data 
+            * Received Data, Sissues and Edited date are collectively called "Review States" 
 
 ## The Project Page 
 
