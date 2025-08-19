@@ -1,4 +1,4 @@
-# Project Manager Role
+# Project Manager
 
 The Project Manager (PM) Role is a critical control center for ODK Central.  Only the PM can Assign ODK Central Users to the Project with specific Roles.  Only the PM can create App Users.  Only the PM can create Forms and decide on access to the forms.  Only the PM can assign App Users to Forms.  Only the PM can enable encryption.  Only the PM can edit the data.  Only the PM can archive the project. The PM can perform tasks that cannot be undone (like deleting forms and data)  
 
@@ -32,8 +32,7 @@ There are four sections:
             * Received Data, Sissues and Edited date are collectively called "Review States" 
     * Clicking on a Project will take you to a [Project Page](#the-project-page)
 
-
-# The Project Page 
+# The Project Page
 
 All of tasks of a Project Manager are accessible from the Project Page.  The tasks can be divided into tasks that are related to Users and Access; tasks related to Data; and tasks related to the Project.
 There are 2 sections: 
@@ -103,66 +102,35 @@ In the Entities tab, you can Create an New Entity List, View Entities, Download 
 
 ### How to Create a New Entity
 
+To be added. 
 
- ### How to Edit an Entity
+### How to Edit an Entity
+In the Entities tab, you can Create an New Entity List, View Entities, Download Entities.
+* To edit an entity, first select an Entity List.
+* The select an entity within that list.
+* Hover over the Actions column in the row of the entity you want to edit.  
+* Choose edit (pen icon).
+* Choosing More will take you to Entity details and an edit entity ink.
+* Either  way, an edit pop-up window will show up.
+
+
+### How to Delete an Entity
+
 In the Entities tab, you can Create an New Entity List, View Entities, Download Entities.
 
-1. To edit an entity, first select an Entity List.
-
-2.  The select an entity within that list.
-
-3. Hover over the Actions column in the row of the entity you want to edit.  
-
-4. Choose edit (pen icon).
-
-5. Choosing More will take you to Entity details and an edit entity ink.
-
-6. Either  way, an edit pop-up window will show up.
-
-Selecting and Entity List
-
-Selecting an entity to edit
-
-The Editing pop-up Window
-
-
- ### How to Delete an Entity
-
- In the Entities tab, you can Create an New Entity List, View Entities, Download Entities.
-
-1. To delete an entity, first select an Entity List.
-
-2.  The select an entity within that list.
-
-3. Hover over the Actions column in the row of the entity you want to delete.  
-
-4. Choose delete (trash icon).
-
-5. Choosing More will take you to Entity details and an delete entity ink.
-
-6. Either  way, an edit pop-up window will show up to ask you to confirm.
-
-Selecting and Entity List
-
-Selecting an entity to delete
-
-The Delete pop-up Window
-
-## How to Assign App Users to Projects
+* To delete an entity, first select an Entity List.
+* The select an entity within that list.
+* Hover over the Actions column in the row of the entity you want to delete.  
+* Choose delete (trash icon).
+* Choosing More will take you to Entity details and an delete entity ink.
+* Either  way, an edit pop-up window will show up to ask you to confirm.
 
 ### Assigning Web Users to Projects
 
-1. Ask the Administrator to Create Web Users for your Project (provide e-mail address).
-
-2.  As Project Manager go to Project > Project Roles Tab
-
-3.  In the Search Box, place the exact email address.
-
-4.  Select the User and Assign a Role
-
-Search for the Web User
-
-Assigning Roles
+* Ask the Administrator to Create Web Users for your Project (provide e-mail address).
+* As Project Manager go to Project > Project Roles Tab
+* In the Search Box, place the exact email address.
+* Select the User and Assign a Role
 
 ## App Users
 
@@ -176,29 +144,32 @@ Below are steps for tasks specific to this tab:
 
 ### How to Create an App User
 
-    * In the App User tab, select the blue "Create an App User" Icon.  
-    * Provide a Display Name for the App User.  This can be used to Display App Users when they submit data using ODK Collect.  In a Submission, this will show up under "Submitted by".
-    * Click Create. 
-    * The User should now show up in the list of App Users in this tab and in the Form Access Tab.
-    * The next step would be to assign Forms to created App Users in the Form Access Tab.  
-    [Back to App Users](#app-users)
+* In the App User tab, select the blue "Create an App User" Icon.  
+* Provide a Display Name for the App User.  This can be used to Display App Users when they submit data using ODK Collect.  In a Submission, this will show up under "Submitted by".
+* Click Create. 
+* The User should now show up in the list of App Users in this tab and in the Form Access Tab.
+* The next step would be to assign Forms to created App Users in the Form Access Tab.  
+
+[Back to App Users](#app-users)
 
 ### How to Download an App User's QR Code for Distribution
 * Decide on your QR Code naming protocol for the Project.
 * In the App User tab, look for the User's Display Name.
-    * Under the "Configure Client" Column, click on the QR Code Icon or "See Code"
-    * In the pop-up window "Client Configuration Code", Right-click the QR Code.
-    * Select "Save Image As.."
-    * Save the QR Code based on your project's QR Code naming protocol. 
-    * The next step is to securely send the QR Code to each App User.  
-     [Back to App Users](#app-users)
+* Under the "Configure Client" Column, click on the QR Code Icon or "See Code"
+* In the pop-up window "Client Configuration Code", Right-click the QR Code.
+* Select "Save Image As.."
+* Save the QR Code based on your project's QR Code naming protocol. 
+* The next step is to securely send the QR Code to each App User.  
     
-### How to Revoke an App User's Access to the Project  
-    * In the App User tab, look for the User's Display Name.
-    * Under the "Actions" Column, click on the Gear Icon.
-    * In the "Revoke User Access" pop-up window, you will be warned that **Action** cannot be undone**
-    * Select "Yes, Proceed".  
-     [Back to App Users](#app-users)
+[Back to App Users](#app-users)
+    
+### How to Revoke an App User's Access to the Project
+* In the App User tab, look for the User's Display Name.
+* Under the "Actions" Column, click on the Gear Icon.
+* In the "Revoke User Access" pop-up window, you will be warned that **Action** cannot be undone**
+* Select "Yes, Proceed".  
+
+[Back to App Users](#app-users)
 
 ## Form Access
 
@@ -212,7 +183,7 @@ There may also be situations when you would want to toggle access to Forms.  One
 
 Below are steps for tasks specific to this tab:
 
-### How to Set the Form State.  
+### How to Set the Form State 
 
 * In the Form Access tab, identify the form.  
 * In the column "State" Select one of the Form States from the Dropdown Menu.  
@@ -226,13 +197,13 @@ Below are steps for tasks specific to this tab:
 
  [Back to Form Access](#form-access)
 
-### How to Assign Forms to App Users.  
+### How to Assign Forms to App Users
 
 * In the Form Access tab, identify the form.  
 * In the column "App Users", Identify the App Users you want to assign Forms to.
 * Tick the Check box, to allow access to the Form.  
- [Back to Form Access](#form-access)
 
+[Back to Form Access](#form-access)
 
 ## Settings
 
