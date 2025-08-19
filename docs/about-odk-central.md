@@ -24,7 +24,7 @@ Further below is a table taken from ODK Docs.  This is a comprehensive table of
 
 The Administrator  is assigned at the ODK Central level with site-wide privileges across Projects.   The Administrator can do all roles of the Project Manager, the Project Viewer and the the Data Collector.  In addition, only the Administrator can create Projects and Create and Manage Web Users. 
 
-Note that as of ODK Central V2025, Administrators can perform functions on Submissions and there is no easy way to change that.   It would be good practice to have internal protocols to define what an ODK Central User who is an Administrator can do using that log-in.  
+Note that as of ODK Central V2025, Administrators can perform functions on Submissions and there is no easy way to change that.  It would be good practice to have internal protocols to define what an Administrator can do using that log-in. For instance, can an Administrator perform a Project Manager function with an Administrator log-in?
 
 The Project Manager can perform all functions except Create Projects and Create and Manage Web Users.  The critical roles are Form Creation and Management, Entity Creation and Updating, Creation and Management of App Users, Creation and editing of Submissions.  Essentially, the Project Manager fulfills a data manager's role. Project Managers can delete forms and archive projects. 
 
