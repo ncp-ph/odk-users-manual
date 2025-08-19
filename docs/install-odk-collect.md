@@ -5,19 +5,19 @@ Just like any other Android App, you download ODK Collect from the Google Play S
 
 ## Here are the steps:
 
-- Make sure you have an internet connection.
-- Get your Android Device.
-- Open the Google Play Store app.
-- Search for "ODK Collect"
-- Tap "Install" and wait for the app to download and install
+* Make sure you have an internet connection.
+* Get your Android Device.
+* Open the Google Play Store app.
+* Search for "ODK Collect"
+* Tap "Install" and wait for the app to download and install
 
-- Click on [this link to go to ODK Collect on Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android)  
+If you are reading this on an Android device, here is is a [link to go to ODK Collect on Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android)  
 
-To update the App, go through the same process and choose Update.
+To update the App, go through the same process and choose "Update".
 
 ## Permissions
 
-When you open the app for the first time, it will ask for permissions (like accessing your camera or location). These are crucial for ODK Collect to function correctly for things like taking photos in surveys or recording GPS coordinates.
+When you open ODK Collect for the first time, it may ask for permissions (like accessing your camera or location). These are crucial for ODK Collect to function correctly for things like taking photos in surveys or recording GPS coordinates.
 
 These are the only permissions that ODK Collect will ask from you.
 
@@ -28,5 +28,5 @@ These are the only permissions that ODK Collect will ask from you.
 | Location     | required for location questions                         |
 | Microphone   | required by audio and video questions to capture new media |
 
-## [How to Use ODK Collect](./try-odk-collect.md)
+To start using ODK Collect, read [How to Use ODK Collect](./try-odk-collect.md)
 

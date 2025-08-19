@@ -1,4 +1,8 @@
-# Introduction
+# Project Manager Role
+
+The Project Manager (PM) Role is a critical control center for ODK Central.  Only the PM can Assign ODK Central Users to the Project with specific Roles.  Only the PM can create App Users.  Only the PM can create Forms and decide on access to the forms.  Only the PM can assign App Users to Forms.  Only the PM can enable encryption.  Only the PM can edit the data.  Only the PM can archive the project. The PM can perform tasks that cannot be undone (like deleting forms and data)  
+
+Note that the Administrator can also do all of these, but none of the above are ODK Central Administrative Functions.  All of the Project Viewer (PV) roles can also be performed by the PM.  If you have an ODK Central User that you want to assign to see the data but not change the data, they should be given a PV role and not a PM role.  
 
 When you log-in as a Project Manager, you will see your Home Page.  From the Home Page you can navigate to other parts of ODK Central that you have access to. 
 
@@ -180,8 +184,8 @@ Below are steps for tasks specific to this tab:
     [Back to App Users](#app-users)
 
 ### How to Download an App User's QR Code for Distribution
-    * Decide on your QR Code naming protocol for the Project.
-    * In the App User tab, look for the User's Display Name.
+* Decide on your QR Code naming protocol for the Project.
+* In the App User tab, look for the User's Display Name.
     * Under the "Configure Client" Column, click on the QR Code Icon or "See Code"
     * In the pop-up window "Client Configuration Code", Right-click the QR Code.
     * Select "Save Image As.."

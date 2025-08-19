@@ -26,6 +26,6 @@ These are a few Examples of the type of data you can collect.
 
 <img width="300" height="672" alt="collect_signatures" src="/assets/images/collect_signed.png" />
 
-## [How to Install ODK Collect](./install-odk-collect.md)
+You can see more examples once you start using ODK Collect.  First you must [Install ODK Collect](./install-odk-collect.md)
 
 
