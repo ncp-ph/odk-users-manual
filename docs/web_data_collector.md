@@ -1,10 +1,12 @@
 # Web Data Collector
 
-The Administrator Creates Project and Creates Users for ODK Central.  The Administrator has access to all Projects and Data and functions of all other types of users in ODK Central.  Discussed below are the roles that are **specific** to the Administrator.  
+A Web Data Collector uses ODK Central directly.  This user has access to all Forms in the Project.  App Users, in contrast can be given controlled form access by the Project Manager.  
 
-#  Roles of the Administrator
+#  How to Enter Data 
+* From the Home Page, you can see all assigned Projects and all Forms in each Project
+* Select a Project
+* In the Projects Page, Look for the Form under "Name"
+* To the right of the Form that you want to enter data in, select "Fill Form"
+* The Web Form will appear showing the data entry fields.  
+* Click "Submit" at the end. 
 
-## Create a Project  
-
-
-## Create a User for the ODK Central Site  
