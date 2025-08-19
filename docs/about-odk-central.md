@@ -1,14 +1,17 @@
-# ODK Ecosystem
+# ODK Central
 
 ODK consists of :
 
-ODK Central Server  
-ODK Projects  
-Forms (Blank)  
-Submissions (Data from Forms)  
-ODK Collect App  
-Blank Forms  
-Finalized Forms with Data  
+* ODK Central Server  
+  * ODK Projects  
+  * ODK Central Users
+  * Forms (Blank)  
+  * Submissions (Data submitted via ODK Collect or Web Forms) 
+  * Entities (created from Submissions or Uploaded Prior to Study) 
+* ODK Collect App  
+  * Blank Forms  
+  * Saved Submissions
+  * App Settings  
 
 ODK Central is the hub that controls the ODK Ecosystem. ODK Central manages users, forms, permissions and data flow. Forms are created in a computer using a template in Excel or Google Sheets using the XLSForm Standard. These XLSForms are are uploaded to ODK Central.  ODK Collect connects to ODK Central Projects and Forms using the QR Codes. Forms are then downloaded into the ODK Collect App as blank forms.  Data collected using these Forms are processed within ODK Collect and sent back to ODK Central.  These are called Submissions.  These Submissions can then be exported as data for analysis. 
 
@@ -21,11 +24,11 @@ Further below is a table taken from ODK Docs.  This is a comprehensive table of
 
 The Administrator  is assigned at the ODK Central level with site-wide privileges across Projects.   The Administrator can do all roles of the Project Manager, the Project Viewer and the the Data Collector.  In addition, only the Administrator can create Projects and Create and Manage Web Users. 
 
-Note that in ODK Central V2025, Administrators can perform functions on Submissions and there is no easy way to change that.   It would be good practice to ensure that an Administrator log-in with different credentials if they are performing project specific roles (eg as a Project Manager).  
+Note that as of ODK Central V2025, Administrators can perform functions on Submissions and there is no easy way to change that.   It would be good practice to have internal protocols to define what an ODK Central User who is an Administrator can do using that log-in.  
 
-The Project Manager can perform all functions except Create Projects and Create and Manage Web Users.  The critical roles are Form Creation and Management, Entity Creation and Updating, Creation and Management of App Users, Creation and editing of Submissions.  Essentially, the Project Manager fulfills a data manager's role. The Project Manager can edit Submissions.
+The Project Manager can perform all functions except Create Projects and Create and Manage Web Users.  The critical roles are Form Creation and Management, Entity Creation and Updating, Creation and Management of App Users, Creation and editing of Submissions.  Essentially, the Project Manager fulfills a data manager's role. Project Managers can delete forms and archive projects. 
 
-The Project Viewer has a very focused function.  They can See and List Forms, Comment on Submissions, Download Submissions, Connect with Odata.  Project Viewers cannot edit.
+The Project Viewer has a very focused function.  They can See and List Forms, Comment on Submissions, Download Submissions, Connect with Odata.  Project Viewers cannot edit Submissions. Using OData is currently beyond the scope of this manual.  
 
 The Web Data Collector cannot edit, but can create submissions.
 
@@ -52,4 +55,4 @@ In **Panel C**, **Auto-delete upon sending** is enabled.  This means that upon 
 
 <img width="300" height="672" alt="Diagram wiht Auto delete" src="/assets/images/odk_panelc.png" />
 
-Project Managers have to decide which setting they want to have. 
+Project Managers have to decide which setting they want to have.  The Android devices should then be configure manually or using a script-generated QR Code.  Creating a script-generated QR Code is beyond the scope of this manual, but the documentation can be found in ODK Docs.  
