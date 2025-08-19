@@ -71,3 +71,6 @@ You will learn how to answer the most common question types enumerated below
 Exit ODK Collect the way you you would any other App.  
 It is important to do this so that ODK Collect is not accessible by anyone your device is left unattended.  
 
+## Next Steps
+* If you are an App User, you can stop here.
+* If you have other roles, see the [Must Read Table](./index.md#must-read-table)
