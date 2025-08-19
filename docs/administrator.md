@@ -6,23 +6,53 @@ Note that as of ODK Central V2025, Administrators can perform functions on Submi
 
 #  Roles of the Administrator
 
-* Create a Project
-* Create a Web user
+* Create Projects
+* Create Web users
+* Manage Web Users
 * System Management
 
 ## Create a Project  
 * Go to the Projects Tab
 * Select "New"
-* in the pop-up window, Enter a Project Name
+* In the pop-up window, Enter a Project Name
 * Select "Create"
 
-## Create a User for the ODK Central Site  
+## Create a Web User for the ODK Central Site  
 * Go to the Users Tab
 * Select "Create Web User"
-* in the pop-up window, enter the following:
+* In the pop-up window, enter the following:
   * E-mail address
   * Display name
 * Select "Create"
+
+## Assign Sitewide Roles to Web Users
+* Go to the Users Tab
+* Find the Web User based on the Display Name and Email address
+* Choose the Sitewide Role based on the drop-down menu under "Sitewide Role"
+  * Choose None or
+  * Choose Administrator
+
+## Reset User Password
+* Go to the Users Tab
+* Find the Web User based on the Display Name and Email address
+* Choose "Reset Password" in the drop-down menu under "Action"
+* In the pop-up window, select "Reset Password"
+
+## Retire User 
+* Go to the Users Tab
+* Find the Web User based on the Display Name and Email address
+* Choose "Retire User" in the drop-down menu under "Action"
+* In the pop-up window, select "Reset User"
+* Warning : This cannot be undone.  
+
+## Edit User Profile
+* Go to the Users Tab
+* Find the Web User based on the Display Name and Email address
+* Choose "Edit user Profile" in the drop-down menu under "Action"
+* In the Edit profile page, you can change the following:
+  * E-mail address
+  * Display name
+* Select "Update Details"
 
 ## System Management
 
