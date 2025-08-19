@@ -160,34 +160,81 @@ Search for the Web User
 
 Assigning Roles
 
-## Assigning App Users
+## App Users
+
+In the App Users tab, all the tasks are unique to the **Project Manager and Administrator**.  There are two main tasks.  The first task is to **Create an App User**.  Once an App User is created, a QR Code is automatically generated  the QR Code must be treated like a password.  It should be sent securely to an App Users secure email.  Sharing QR Codes should be discouraged.  
+
+The second task is to **Download the QR Code**.  This QR Code is unique for the App User for whom it was generated.  The Project Manager needs to have a system for filing and naming the QR Codes. 
+
+The third task is that you may **Revoke Access** of an App User to the Project.  This means that the App User can no longer download forms or Submit Data.  
+
+Below are steps for tasks specific to this tab:
+
+### How to Create an App User
+    * In the App User tab, select the blue "Create an App User" Icon.  
+    * Provide a Display Name for the App User.  This can be used to Display App Users when they submit data using ODK Collect.  In a Submission, this will show up under "Submitted by".
+    * Click Create. 
+    * The User should now show up in the list of App Users in this tab and in the Form Access Tab.
+    * The next step would be to assign Forms to created App Users in the Form Access Tab.  
+    [Back to App Users](#app-users)
+
+### How to Download an App User's QR Code for Distribution
+    * Decide on your QR Code naming protocol for the Project.
+    * In the App User tab, look for the User's Display Name.
+    * Under the "Configure Client" Column, click on the QR Code Icon or "See Code"
+    * In the pop-up window "Client Configuration Code", Right-click the QR Code.
+    * Select "Save Image As.."
+    * Save the QR Code based on your project's QR Code naming protocol. 
+    * The next step is to securely send the QR Code to each App User.  
+     [Back to App Users](#app-users)
+    
+### How to Revoke an App User's Access to the Project  
+    * In the App User tab, look for the User's Display Name.
+    * Under the "Actions" Column, click on the Gear Icon.
+    * In the "Revoke User Access" pop-up window, you will be warned that **Action** cannot be undone**
+    * Select "Yes, Proceed".  
+     [Back to App Users](#app-users)
 
 ## Form Access
 
-In the Forms Access tab, all the tasks are unique to the **Project Manager and Administrator**.  There are two main tasks.  The first task is to **set the Form State**.  This is where you can contorl whether the form can be downloaded by ODK Collect and whether you can still Submit Data to ODK Central from ODK Collect.  
+In the Forms Access tab, all the tasks are unique to the **Project Manager and Administrator**.  Briefly, the Form Access tab defines what you can do with the Form (Form States) and who among the App Users have access to the Form (Form Access) regardless of its State.  Note that even if the App User has Access to the Form, the Form States dictate what action the App User can do with that access.  
 
-The second task is to **set the Form Access**.  You  will see all your Forms as rows.  In the columns, you will see the Different App Users assigned to the Project. By default, they cannot access any form.  **This is a feature, not a bug.**  This allows the Project Manager to provide granular access to Forms such that some App Users can only access Forms assigned to them.  With this default setting, ODK Central prevents any time window where App Users have access to Forms that they are not supposed to access.  There may also be situations when you would want to toggle access to Forms.  One scenario for this is that you may have a form that you want to test with a few App Users before scaling up. Another scenario is that you may want to suspend data entry from specific areas or App Users (For example, to stop recruitment).  
+There are two main tasks.  The first task is to **set the Form State**.  This is where you can control whether the form can be downloaded by ODK Collect and whether you can still Submit Data to ODK Central from ODK Collect.  
 
-In this tab, you can do the following:
+The second task is to **set the Form Access**.  You  will see all your Forms as rows.  In the columns, you will see the Different App Users assigned to the Project. By default, a newly created App User cannot access any form.  **This is a feature, not a bug.**  This allows the Project Manager to provide granular access to Forms such that App Users can only access Forms explicitly assigned to them.  This way, ODK Central reduces the risk that newly created App Users have access to Forms that they are not supposed to access.  
 
-* Set the Form State as Open, Closing or Closed using the Dropdown Menu beside each Form.  
+There may also be situations when you would want to toggle access to Forms.  One scenario for this is that you may have a form that you want to test with a few App Users before scaling up. Another scenario is that you may want to suspend data entry from specific areas or App Users (For example, to stop recruitment).  
+
+Below are steps for tasks specific to this tab:
+
+### How to Set the Form State.  
+
+* In the Form Access tab, identify the form.  
+* In the column "State" Select one of the Form States from the Dropdown Menu.  
+* The table shows what each Form State allows.  
 
     | Form State   | Download Form | Submit Data |
     |--------------|-----------|-------------|
     | Open         | **Yes**       | **Yes**         |
     | Closing      | No        | **Yes**         |
     | Closed       | No        | No          |
+ [Back to Form Access](#form-access)
 
-* Give Form Access to App Users using the Checkbox under each App User.  
-  
+### How to Assign Forms to App Users.  
+
+* In the Form Access tab, identify the form.  
+* In the column "App Users", Identify the App Users you want to assign Forms to.
+* Tick the Check box, to allow access to the Form.  
+ [Back to Form Access](#form-access)
+
 
 ## Settings
 
-In the Settings Tab, all the tasks are unique to the **Project Manager and Administrator**.  These are very sensitive tasks because it contains some tasks **that cannot be undone**. That is why the Project Manager role should be assigned with care.  
+In the Settings Tab, all the tasks are unique to the **Project Manager and Administrator**.  These are very sensitive tasks because it contains some tasks **that cannot be undone**.  
 
 In this tab, you can do the following:
 
-* Change Basic Details (Name and Description)
+* Enter Basic Details (Project Name and Description)
 * Enable Encryption
 * Archive the Project
     * This Action Cannot be Undone. 
