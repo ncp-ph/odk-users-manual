@@ -19,7 +19,7 @@ nav: # REQUIRED: Defines your site's navigation. You MUST customize this.
   - ODK Collect: # Example of a top-level section
     - Overview: about-odk-collect.md # Create 'docs/getting-started/overview.md'
     - Installation: install-odk-collect.md
-    - Use ODK Collect: try-odk-collect.md
+    - Try ODK Collect: try-odk-collect.md
   - ODK Central: # Another top-level section
     - Core Features: about-odk-central.md
     - Project Viewer: project_viewer.md
