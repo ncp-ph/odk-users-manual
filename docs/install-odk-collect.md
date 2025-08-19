@@ -3,7 +3,7 @@
 
 Just like any other Android App, you download ODK Collect from the Google Play Store.  You download it like you would WhatsApp or Viber or Messenger.
 
-## Steps:
+## How to Install
 
 * Make sure you have an internet connection.
 * Get your Android Device.
