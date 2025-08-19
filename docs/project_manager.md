@@ -2,18 +2,10 @@
 
 When you log-in as a Project Manager, you will see your Home Page. This page will explain the home page and then the Projects Page in detail.
 
-* Forms [List all Forms]
-    * Submissions [View Submissions]
-        * Filter Views
-
 ## Project Manager Home Page
 There are four sections:  
 
-* Forms [List all Forms]  revised 0949
-    * Submissions [View Submissions]
-        * Filter Views
-        `
-*A - ODK Central System and User revised  
+* A - ODK Central System and User revised  
     * The first dropdown shows the ODK Central Version and Links to ODK Docs and ODK Forum.  
     * The second dropdown is for language  
     * The third dropdown is the user profile and logging out.  
