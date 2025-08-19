@@ -38,8 +38,8 @@ There are 2 sections:
     * [Forms](#form-subsection)
     * [Entities](#entities) 
     * [Project Roles]
-    * [App Users]
-    * [Form Access]
+    * [App Users](#assigning-app-users)
+    * [Form Access](#form-access)
     * [Settings](#settings)
 * B - Subsection Details  
     * This will be different for each subsection
@@ -144,7 +144,7 @@ Selecting an entity to delete
 
 The Delete pop-up Window
 
-## How to Assign Users to Projects
+## How to Assign App Users to Projects
 
 ### Assigning Web Users to Projects
 
@@ -160,11 +160,13 @@ Search for the Web User
 
 Assigning Roles
 
-### Assigning App Users
+## Assigning App Users
 
 ## Form Access
 
-In the Forms Access tab, all the tasks are unique to the **Project Manager and Administrator**.  There are two main tasks.  The first task is to set the Form State.  The second task is to set the Form Access.  You  will see all your Forms as rows.  In the columns, you will see the Different App Users in the Project. 
+In the Forms Access tab, all the tasks are unique to the **Project Manager and Administrator**.  There are two main tasks.  The first task is to **set the Form State**.  This is where you can contorl whether the form can be downloaded by ODK Collect and whether you can still Submit Data to ODK Central from ODK Collect.  
+
+The second task is to **set the Form Access**.  You  will see all your Forms as rows.  In the columns, you will see the Different App Users assigned to the Project. By default, they cannot access any form.  **This is a feature, not a bug.**  This allows the Project Manager to provide granular access to Forms such that some App Users can only access Forms assigned to them.  With this default setting, ODK Central prevents any time window where App Users have access to Forms that they are not supposed to access.  There may also be situations when you would want to toggle access to Forms.  One scenario for this is that you may have a form that you want to test with a few App Users before scaling up. Another scenario is that you may want to suspend data entry from specific areas or App Users (For example, to stop recruitment).  
 
 In this tab, you can do the following:
 
@@ -177,8 +179,7 @@ In this tab, you can do the following:
     | Closed       | No        | No          |
 
 * Give Form Access to App Users using the Checkbox under each App User.  
-    * One scenario for this is that you may have a form that you want to test with a few App Users before scaling up.  
-    * Another scenario is that you may want to suspend data entry from specific areas or App Users.  
+  
 
 ## Settings
 
