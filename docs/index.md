@@ -17,7 +17,7 @@ The contents of the NCP ODK Users Manual are based on Official ODK Documentation
 
 | Role | Must Read |
 |---|---|
-| App User | [About ODK Collect](./about-odk-central.md)<br>[Install ODK Collect](./install-odk-collect.md)<br>[Try ODK Collect](./try-odk-collect.md)<br>[App User](./app_user.md) |
+| App User | [App User](./app_user.md)<br>[About ODK Collect](./about-odk-central.md)<br>[Install ODK Collect](./install-odk-collect.md)<br>[Try ODK Collect](./try-odk-collect.md) |
 | Web Data Collector | [About ODK Central](./about-odk-central.md)<br>[Web Data Collector](./web_data_collector.md) |
 | Project Viewer | [About ODK Central](./about-odk-central.md)<br>[Project Viewer](./project_viewer.md) |
 | Project Manager | [About ODK Central](./about-odk-central.md)<br>[Project Manager](./project_manager.md))<br>[Administrator](./administrator.md)<br>[Project Viewer](./project_viewer.md)<br>[Web Data Collector](./web_data_collector.md)<br>[App User](./app_user.md) |
