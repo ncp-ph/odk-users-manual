@@ -3,7 +3,7 @@
 
 Just like any other Android App, you download ODK Collect from the Google Play Store.  You download it like you would WhatsApp or Viber or Messenger.
 
-## Here are the steps:
+## Steps:
 
 * Make sure you have an internet connection.
 * Get your Android Device.
@@ -28,5 +28,6 @@ These are the only permissions that ODK Collect will ask from you.
 | Location     | required for location questions                         |
 | Microphone   | required by audio and video questions to capture new media |
 
-To start using ODK Collect, read [How to Use ODK Collect](./try-odk-collect.md)
+## Next Steps
+* [Try ODK Collect](./try-odk-collect.md)
 
