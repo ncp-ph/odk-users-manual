@@ -4,6 +4,8 @@
 
 We have divided the site into sections seen at the top of the page.  There are currently two sections:  ODK Central and ODK Collect. 
 When you select a section, you will see a navigation panel on the left side showing subsections or pages.  
+On the right side of the page, you may see a table of contents if applicable for the page. 
+
 ## About this Manual
 This user's manual is focused on how to use ODK Central and ODK Collect based on your role.
 Ask your project manager what role you will be given.  These are the sections that are recommended based on your role.  The contents of the NCP ODK Users Manual are based on Official ODK Documentation, the ODK Forum, and our own practices.  See the links in [References](#references). 
