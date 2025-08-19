@@ -4,13 +4,13 @@ When you log-in as a Project Manager, you will see your Home Page. This page wil
 
 ## Project Manager Home Page
 There are four sections:  
-* A - ODK Central System and User  
+*A - ODK Central System and User  
     * The first dropdown shows the ODK Central Version and Links to ODK Docs and ODK Forum.  
     * The second dropdown is for language  
     * The third dropdown is the user profile and logging out.  
 * B - Projects and Documentation
     * The first box shows the number of projects  
-    * The second box is a link to ODK Docs
+    * The second box is a link to ODK Docs  
     * The third box is a link to ODK Forum  
 * C - News from ODK (usually about the latest versions of ODK Central and ODK Collect)
 * D - Projects  
@@ -25,18 +25,20 @@ There are four sections:
             * Received Data, Sissues and Edited date are collectively called "Review States" 
 
 ## The Project Page 
-
-There are 3 sections: 
-A - Tabs to Subsections (Forms, Entities, Project Roles, App Users, Form Access, Settings)  
-B - Subsection Details  
-    - This will be different for each subsection
+There are 2 sections: 
+* A - Tabs to Subsections (Forms, Entities, Project Roles, App Users, Form Access, Settings)  
+* B - Subsection Details  
+    * This will be different for each subsection
 
 ## Form Subsection
-    -  This contains:  
-        - Create New Form Button
-        - List of Forms specific to Project
-        - Columns for Review States, Last Modified Date and Total Submissions
-        - Action Column - to Preview a Form 
+The form subsection has 6 tabs :
+
+shows an overview of Form Review States and Totals and **two specific actions**
+* **Create New Form** Button
+* List of Forms specific to Project
+    * Columns for Review States, Last Modified Date and Total Submissions
+    * Action Column - to **Preview a Form** 
+        * Selecting this allows you to see what your Form looks like.
     
 ### How to Create a New Form
 - From the Project Page, select the Forms tab
