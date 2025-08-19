@@ -171,6 +171,7 @@ The third task is that you may **Revoke Access** of an App User to the Project. 
 Below are steps for tasks specific to this tab:
 
 ### How to Create an App User
+
     * In the App User tab, select the blue "Create an App User" Icon.  
     * Provide a Display Name for the App User.  This can be used to Display App Users when they submit data using ODK Collect.  In a Submission, this will show up under "Submitted by".
     * Click Create. 
@@ -218,6 +219,7 @@ Below are steps for tasks specific to this tab:
     | Open         | **Yes**       | **Yes**         |
     | Closing      | No        | **Yes**         |
     | Closed       | No        | No          |
+
  [Back to Form Access](#form-access)
 
 ### How to Assign Forms to App Users.  
