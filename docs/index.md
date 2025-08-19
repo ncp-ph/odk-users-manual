@@ -12,7 +12,7 @@ Ask your project manager what role you will be given.  These are the sections th
 
 | Role | Must Read |
 |---|---|
-| App User | [About ODK Collect](./about-odk-central.md)]<br>[Install ODK Collect](./install-odk-collect.md)<br>[Try ODK Collect](./try-odk-collect.md)<br>[App User](./app_user.md) |
+| App User | [About ODK Collect](./about-odk-central.md)<br>[Install ODK Collect](./install-odk-collect.md)<br>[Try ODK Collect](./try-odk-collect.md)<br>[App User](./app_user.md) |
 | Web Data Collector | [About ODK Central](./about-odk-central.md)<br>[Web Data Collector](./web_data_collector.md) |
 | Project Viewer | [About ODK Central](./about-odk-central.md)<br>[Project Viewer](./project_viewer.md) |
 | Project Manager | [About ODK Central](./about-odk-central.md)<br>[Project Manager](./project_manager.md)<br> Potentially Everything !! |
