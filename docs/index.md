@@ -9,7 +9,11 @@ On the right side of the page, you may see a **table of contents** if applicable
 
 ## About this Manual
 This user's manual is focused on how to use ODK Central and ODK Collect based on your role.
-These are the sections that must be read based on your role.  The contents of the NCP ODK Users Manual are based on Official ODK Documentation, the ODK Forum, and our own practices.  See the links in [References](#references). 
+These are the sections that must be read based on your role.  Read fully each "Must Read" Section for your role.  Use the Search Box which is present in the header of every page.  
+
+The contents of the NCP ODK Users Manual are based on Official ODK Documentation, the ODK Forum, and our own practices. Use these resources. See the links in [References](#references). The ODK Documentation has an "Ask AI" Section.  Use that particularly for more complex tasks.  The ODK Forum requires a free account to access. 
+
+## Must Read Table
 
 | Role | Must Read |
 |---|---|
