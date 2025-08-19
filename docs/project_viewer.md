@@ -32,36 +32,8 @@ Recall that ODK Central has Projects, and each Project has Users with Roles, For
 
 # Navigating Central as a Project Viewer
 
-This is a Site Map showing where you can do each task [shown in brackets]
-
-**ODK Central Home** [View Projects , Forms , Entity Lists]
-
--- *Project Summary* | *Docs* | *Forum*
-
--- **News**
-
--- **Projects**
-
-     ---- Forms [List all Forms]
-
-           ---- Submissions [View Submissions]
-
-                   ---- Filter Views
-
-                 ----  Submission Details and Activity [Comment on Submissions]
-
-                 ----  Download [Download  Submissions]
-
-     ---- Entity Lists [View all Entity Lists]
-
-         ---- Entities [View Entities and Data]
-
-                 ----  Entity Details and Activity  [View Metadata and Data]
-
-                 ----  Download [Download Entities]
-
-# ODK Central Home
-**ODK Central Home** is the landing page for your account. From here, you can see an overview of your projects and access features like viewing submissions, managing forms, and more.
+## ODK Central Home
+**ODK Central Home** is the landing page for your account. From here, you can see an overview of your projects and you can see the links to ODK Docs and the ODK Forum.  You will see the heading for Projects and for each Project you are assigned to, you can see Entities, Forms, and Submissions.  access features like viewing submissions, managing forms, and more.
 
 ## Quick Links
 * [View Projects](link-to-projects)
@@ -71,21 +43,18 @@ This is a Site Map showing where you can do each task [shown in brackets]
 ## News
 
 ## Projects
-* Forms
-    * [List all Forms](link-to-form-list)
-        * Submissions
-            * [View Submissions](link-to-submissions)
-                * Filter Views
-                * Submission Details and Activity
-                    * [Comment on Submissions](link-to-comments)
-                * [Download Submissions](link-to-download)
-* Entity Lists
-    * [View all Entity Lists](link-to-entity-lists)
-        * Entities
-            * [View Entities and Data](link-to-entities)
-                * Entity Details and Activity
-                * [View Metadata and Data](link-to-metadata)
-                * [Download Entities](link-to-download-entities)
+* Forms [List all Forms]
+    * Submissions [View Submissions]
+        * Filter Views
+            * Submission Details and Activity
+                * [Comment on Submissions]
+                * [Download Submissions]
+* Entity Lists [View all Entity Lists]
+    * Entities
+        * [View Entities and Data]
+            * Entity Details and Activity
+            * [View Metadata and Data]
+            * [Download Entities]
 
 # How to Download Submissions
 
@@ -153,5 +122,5 @@ This is the Project Home Page
 
 This is the List of Entities
 
-
+#3FD652
 

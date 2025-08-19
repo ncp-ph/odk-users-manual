@@ -1,31 +1,55 @@
-# 
-The Project Managers's Dashboard has Six Tabs: Forms, Entities, Users.
-Only the project manager needs to read this section.
+# Introduction
 
-## FORMS
+When you log-in as a Project Manager, you will see your Home Page. This page will explain the home page and then the Projects Page in detail.
 
-### Navigating the Forms Dashboard
+## Project Manager Home Page
+There are four sections:  
+A - ODK Central System and User  
+    - The first dropdown (icon, question mark) shows you the ODK Central Version and Links to ODK Docs and ODK Forum.  
+    - The second dropdown is for language  
+    - The third dropdown is the user profile and logging out.  
+B - Projects and Documentation
+    -  There are 3 boxes 
+    -  The first box shows the number of projects  
+    -  The second box is a link to ODK Docs
+    -  The third box is a link to ODK Forum  
+C - News from ODK (usually about the latest versions of ODK Central and ODK Collect)
+D - Projects  
+    - This lists the projects (in blue)
+        - On the left side, you can see the Forms (file icon); Entity Lists (database icon); and Entities. 
+        - On the right side, there are five columns that refer to data (Submissions or Entities)
+            - Received Data
+            - Data with Issues / Comments
+            - Edited Data
+            - Latest Modification
+            - Total Data 
+            - Received Data, Sissues and Edited date are collectively called "Review States" 
 
+## The Project Page 
 
+There are 3 sections: 
+A - Tabs to Subsections (Forms, Entities, Project Roles, App Users, Form Access, Settings)  
+B - Subsection Details  
+    - This will be different for each subsection
 
-By default, you are taken to the Forms Tab.
-
-In the Forms tab, some tasks are useful during Form Design (Create New Form, Preview Form).
-
-Other tasks are used during Data Collection (Viewing Summary of States and Viewing Submissions)
-
+## Form Subsection
+    -  This contains:  
+        - Create New Form Button
+        - List of Forms specific to Project
+        - Columns for Review States, Last Modified Date and Total Submissions
+        - Action Column - to Preview a Form 
+    
 ### How to Create a New Form
-Dashboard
-
-From the Project Dashboard, select New
-
-
+- From the Project Page, select the Forms tab
+- Select "New" and a Create Form pop-up page will appear  
+- Upload or drag a previously created XLSForm.  
 
 ### How to Delete a Form
 
-Go to the Forms tab of the Project
-In the Forms Tab, select Settings
-In Settings, on the Right Side, you will find a Red Delete Button
+- From the Project Page, select the Forms tab
+- Select the Form you want to delete
+- In the Form Page, select Settings tab
+- In Settings, on the Right Side, you will find a Red "Delete This Form" Button
 
 ## Entities
  
