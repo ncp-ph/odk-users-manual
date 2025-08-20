@@ -1,17 +1,33 @@
 # NCP ODK Users Manual
 
-## How to Navigate this site
+## How to Navigate this Site
 
-We have divided the site into sections seen at the top of the page.  
-There are currently **two sections:  ODK Central and ODK Collect**.  
-When you select a section, you will see a **navigation panel on the left side** showing subsections or pages.  
-On the right side of the page, you may see a **table of contents** if applicable for the page. 
+The site is divided into two sections seen at the top of the page:  ODK Central and ODK Collect**.  
+When you select a section, you will see
+* **The navigation panel** on the left side showing subsections or pages.  
+* **The table of contents** on the right side. 
 
-## About this Manual
-This user's manual is focused on how to use ODK Central and ODK Collect based on your role.
-These are the sections that must be read based on your role.  Read fully each "Must Read" Section for your role.  Use the Search Box which is present in the header of every page.  
+## Pre-Requisites
+* For App Users, and Android device with 4 GB RAM and running Android 5 or higher
+* For Web Users, access to an ODK Central Server with permissions for your role
 
-The contents of the NCP ODK Users Manual are based on Official ODK Documentation, the ODK Forum, and our own practices. Use these resources. See the links in [References](#references). The ODK Documentation has an "Ask AI" Section.  Use that particularly for more complex tasks.  The ODK Forum requires a free account to access. 
+## How to Use this Manual
+
+* Bookmark the Home Page.
+* Know the Role assigned to you.
+* Read the [Must Read Table](#must-read-table) below
+* Focus on your Role and Read the links sequentially.
+* Use the [References](#references).
+  * The ODK Documentation is well-structured, searchable and has an "Ask AI" Section.
+  * The ODK Forum requires a free account to access. 
+
+## What is not Included
+
+* How to Design Forms
+* System Administration
+* Use of the API
+* No Videos
+* Few if any Screenshots
 
 ## Must Read Table
 
