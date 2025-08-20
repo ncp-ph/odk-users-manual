@@ -27,7 +27,7 @@ When you select a section, you will see:
 * System Administration
 * Use of the API
 * No Videos
-* Few if any Screenshots
+* Screenshots
 
 ## Must Read Table
 
@@ -36,12 +36,10 @@ When you select a section, you will see:
 | App User | [App User](./app_user.md)<br>[About ODK Collect](./about-odk-central.md)<br>[Install ODK Collect](./install-odk-collect.md)<br>[Try ODK Collect](./try-odk-collect.md) |
 | Web Data Collector | [About ODK Central](./about-odk-central.md)<br>[Web Data Collector](./web_data_collector.md) |
 | Project Viewer | [About ODK Central](./about-odk-central.md)<br>[Project Viewer](./project_viewer.md) |
-| Project Manager | [About ODK Central](./about-odk-central.md)<br>[Project Manager](./project_manager.md))<br>[Administrator](./administrator.md)<br>[Project Viewer](./project_viewer.md)<br>[Web Data Collector](./web_data_collector.md)<br>[App User](./app_user.md) |
+| Project Manager | [About ODK Central](./about-odk-central.md)<br>[About ODK Collect](./about-odk-central.md)<br>[Project Manager](./project_manager.md)<br>[Administrator](./administrator.md)<br>[Project Viewer](./project_viewer.md)<br>[Web Data Collector](./web_data_collector.md)<br>[App User](./app_user.md) |
 | Administrator | [About ODK Central](./about-odk-central.md)<br>[Administrator](./administrator.md) |
 
 ## References 
 
-* [Official ODK Documentation](https://docs.getodk.org/) 
 <a href="https://docs.getodk.org/" target="_blank">Official ODK Documentation</a>
-* [ODK Forum](https://forum.getodk.org/)
 <a href="https://forum.getodk.org/" target="_blank">ODK Forum</a>
