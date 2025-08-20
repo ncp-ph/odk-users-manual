@@ -4,8 +4,8 @@
 
 The site is divided into two sections seen at the top of the page:  **ODK Central and ODK Collect**.  
 When you select a section, you will see:  
-- **The navigation panel** on the left side showing subsections or pages.  
-- **The table of contents** on the right side. 
+  - **The navigation panel** on the left side showing subsections or pages.  
+  - **The table of contents** on the right side. 
 
 ## Pre-Requisites
 * For App Users, and Android device with 4 GB RAM and running Android 5 or higher
@@ -13,9 +13,10 @@ When you select a section, you will see:
 
 ## How to Use this Manual
 
-* This is not meant to duplicate the ODK Documentation. Instead, this focuses on giving an overview of the tasks for each role.  
+This is not meant to duplicate the ODK Documentation. This just focuses on basic tasks for each role.
+
 * Bookmark the Home Page.
-* Know the Role assigned to you. 
+* Know the Role assigned to you.
   * Data collectors in the field are assigned the App User role.
   * Research assistants are assigned the Project Viewer, Project Manager, or Web User role.
 * Read the [Must Read Table](#must-read-table) below
