@@ -13,16 +13,16 @@ When you select a section, you will see:
 
 ## How to Use this Manual
 
-* This is not meant to duplicate the ODK Documentation.
+* This is not meant to duplicate the ODK Documentation. Instead, this focuses on giving an overview of the tasks for each role.  
 * Bookmark the Home Page.
 * Know the Role assigned to you. 
   * Data collectors in the field are assigned the App User role.
-  * Research ssistants are assigned the Project Viewer, Project Manager, or Web User role.
+  * Research assistants are assigned the Project Viewer, Project Manager, or Web User role.
 * Read the [Must Read Table](#must-read-table) below
 * Focus on your Role and Read the links.
 * Use the [References](#references).
-  * The ODK Documentation is well-structured, searchable and has an "Ask AI" Section.
-  * The ODK Forum requires a free account to access. 
+ * The ODK Documentation is well-structured, searchable and has an "Ask AI" Section.
+ * The ODK Forum requires a free account to access. 
 
 ## What is not Included
 
