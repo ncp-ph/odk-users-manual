@@ -2,7 +2,7 @@
 
 ## How to Navigate this Site
 
-The site is divided into two sections seen at the top of the page:  ODK Central and ODK Collect**.  
+The site is divided into two sections seen at the top of the page:  **ODK Central and ODK Collect**.  
 When you select a section, you will see:  
 * **The navigation panel** on the left side showing subsections or pages.  
 * **The table of contents** on the right side. 
